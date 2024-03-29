@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stopwatch Application</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="counter-container">
+            <span id="minute">00</span>
+            <span class="colon">:</span>
+            <span id="second">00</span>
+            <span class="colon">:</span>
+            <span id="millisec">00</span>
+        </div>
+        <div class="buttons-container">
+            <button id="start-count-btn">Start</button>
+            <button id="stop-count-btn" class="hidden">Stop</button>            
+            <button id="resume-count-btn" class="hidden">Resume</button>
+            <button id="reset-count-btn" class="hidden">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
